@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+body {
+    color: #0E0E0E;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    background-image: url(Dreamweaver%20CC18_19_20%20Project_02%20Files/bokeh.jpg);
+    background-size: cover;
+	}
+
+
+#container {
+	width: 768px;
+	height: auto; 
+	background-color: white;
+	margin: auto;
+}
+
+aside {
+    width: 150px;
+    height: 1200px;
+    float: left;
+    background-color: #B8B3B4;
+}
+
+
+/*float the aside next to the main*/
+
+header 
+{
+	width: 768px;
+	height: 250px;
+	background-image: url(Dreamweaver%20CC18_19_20%20Project_02%20Files/header.jpg);
+	background-position: 24% 0%;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 40px;
+    font-family: dr-sugiyama-pro, 'sans-serif;';
+    margin-bottom: -4px;
+ }
+
+main 
+{
+    width: 578px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	
+}
+#container {
+}
+#container nav ul {
+    margin: auto;
+    width: 400px;
+}
+nav a:link {
+    color: #65ebfb;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #5f2575;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #ffffff;
+	background-color: #65ebfb;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #191919;
+	font-family: dr-sugiyama-pro, 'sans-serif;';
+}
+/*float the main next to the aside and reduce by 150px so they both line up.*/
+footer 
+{
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+/*Clear the float on the footer so it shows up in the right place again*/
+h1 {
+    color: #6BE7FF;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    /* [disabled]margin-right: -18px; */
+    /* [disabled]margin-left: -162px; */
+}
+img {
+    float: right;
+    height: auto;
+    padding-top: 10px;
+}
+
+.floatLeft {
+	float: Left;
+}
+article {
+    margin-bottom: 30px;
+}
+nav {
+	width: 768px;
+	height: 50px;
+}
+.submit_btn {
+	width: 170px;
+	height: 30px;
+	background-color: #6BE7FF;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+.submit_btn:hover {
+-webkit-box-shadow: 6px 6px 36px 1px #1B1A1A;
+	box-shadow: 6px 6px 36px 1px #1B1A1A; 
+}
+
+@media screen{
+h3 {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+body {
+}
+}
